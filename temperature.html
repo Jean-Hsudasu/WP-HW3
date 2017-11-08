@@ -10,10 +10,12 @@
 			var Fahrenheit;
 			
 			Celsius = window.prompt("Please enter Celsius");
-			Fahrenheit = Celsius*9/5  + 32
 			document.writeln("<h1>Celsius:"+Celsius+
-				"Fahrenheit:"+Fahrenheit+"</h1>");			
-				
+				"Fahrenheit:"+Fahrenheit(Celsius)+"</h1>");	
+			function Fahrenheit(Celsius)
+			{
+				return Celsius*9/5  + 32;
+			}	
 			</script>
 		</head><body>
 			
